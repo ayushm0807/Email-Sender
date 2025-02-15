@@ -1,2 +1,14 @@
-__pycache__/
+# Ignore .env file to keep credentials secure
 .env
+
+# Ignore __pycache__ and compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore log files
+*.log
+
+# Ignore Excel backup files (temporary files)
+*.xlsx~
+*.xls~
